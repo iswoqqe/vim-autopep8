@@ -90,6 +90,16 @@ Set maximum allowed line length (default: 79)
 
  let g:autopep8_max_line_length=79
 
+Enable experimental fixes (default: non defined)
+
+::
+
+ # enable experimental option (--experimental)
+ let g:autopep8_experimental=1
+
+ # disable experimental option
+ let g:autopep8_experimental=0
+
 Enable possibly unsafe changes (E711, E712) (default: non defined)
 
 :: 
